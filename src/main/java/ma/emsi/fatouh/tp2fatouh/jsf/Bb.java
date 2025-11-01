@@ -135,9 +135,6 @@ public class Bb implements Serializable {
 
             afficherConversation();
 
-
-            afficherConversation();
-
         } catch (Exception e) {
             FacesMessage message = new FacesMessage(FacesMessage.SEVERITY_ERROR,
                     "Problème de connexion avec l'API du LLM", e.getMessage());
